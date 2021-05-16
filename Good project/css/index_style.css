@@ -1,0 +1,328 @@
+#home{
+height: 100vh;
+
+}
+.capt{
+
+    top: 34%;
+    width: 60%;
+    text-align: center;
+    font-weight: 700 !important;
+    font-size: 70px !important;
+    left: 34%;
+
+
+
+
+}
+.prevo{
+border: #fafafa solid 1px;
+top: 50%;
+bottom: 40%;
+left: 13px;
+width: 50px;
+height: 50px;
+}
+.nexto{
+    border: #fafafa solid 1px;
+    top: 58%;
+    bottom: 40%;
+    left: 13px;
+    width: 50px;
+    height: 50px;
+}
+.nexto:hover{
+
+background-color: white;
+color: red !important;
+
+}
+
+
+#fixo
+{
+
+    width: 40px;
+    height: 40px;
+    background-color: #1f2528;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    position: fixed;
+    border-radius: 5%;
+    transition: 1s;
+    z-index: 1000;
+
+}
+
+#fixo:hover{
+
+
+background-color: #444;
+
+}
+.soliman2{
+
+background-image: url(../images/slideshow-2-1394528.jpeg);
+background-position: center;
+
+
+}
+.soliman3{
+
+    background-image: url(../images/slideshow-3-4770244.jpeg);
+    background-position: center;
+}
+.navbar{
+
+    position: absolute;
+    width: 100%;
+    z-index: 6;
+}
+.navbar ul li i{
+
+    transition: 1s;
+}
+.navbar ul li a{
+color: white !important ;
+transition: 1s;
+
+
+}
+.navbar  li a:hover {
+
+    color: red !important;
+}
+.navbar  li  :hover i{
+
+    color: red !important;
+}
+.soliman{
+
+background-image: url(../images/slideshow-1-6298135.jpeg);
+background-position: center;
+
+}
+.soliman h1
+{
+color: white;
+font-weight: 700;
+font-family: sans-serif;
+font-size: 70px;
+
+}
+
+.about h1::after{
+    content: ""; 
+    display: block;
+    height: 4px;
+    width: 50px;
+    color: black;
+
+
+}
+#hoo{
+
+font-weight: 400;
+font-family: sans-serif;
+color: #999999;
+font-size: 18px;
+}
+.x{
+
+height: 5px;
+
+
+}
+.layer{
+ background-color: rgba(242, 84, 84, 0.85);
+ position: absolute;
+visibility: hidden;
+
+ transition: 0.7s ;
+}
+.action img
+{
+
+transition: 0.5s ;
+}
+.layer i{
+color: white;
+font-size: 1rem;
+
+}
+.action{
+
+    position: relative;
+    overflow: hidden;
+}
+.action:hover .layer{
+
+visibility: visible !important;
+}
+.action:hover img {
+
+
+transform: scale(1.2);
+
+visibility: visible !important;
+
+
+
+}
+
+.action :hover h6 {
+
+color: red !important;
+
+}
+.services{
+background-color: #fafafa;
+height: 130vh;
+
+}
+
+.hawk::after{
+
+content: "      ";
+position: absolute;
+background-color: black;
+width: 45px;
+height: 2px;
+bottom: 0;
+left: 47%;
+}
+.myservice a{
+
+  color: black;
+
+text-decoration: none;
+transition: 1s;
+}
+.myservice i{
+
+
+    color: rgba(242, 84, 84, 0.85);
+    font-size: 2rem;
+fill: none;
+
+}
+.myservice a:hover{
+
+color: rgba(242, 84, 84, 0.85);
+
+
+}
+.contact{
+
+background-color: #fafafa;
+
+
+}
+#special{
+
+    color: rgba(242, 84, 84, 0.85);
+    font-size:2rem;
+    top: 9%;
+    right: 105%;
+}
+#special2{
+
+    color: rgba(242, 84, 84, 0.85);
+    font-size:2rem;
+    top: 9%;
+    right: 107%;
+}
+.contact h4{
+
+    transition: 1s;
+}
+.contact h4:hover{
+
+color: rgba(242, 84, 84, 0.85);
+
+}
+.contact a{
+
+text-decoration: none;
+color: black;
+transition: 1s;
+}
+.contact a:hover{
+
+   
+    color: rgba(242, 84, 84, 0.85);
+    
+    }
+
+.last{
+    position: relative;
+
+background-color: #222;
+height:80vh ;
+
+}
+.last h3 , p , li,a{
+
+color: #b0b0b0;
+
+
+}
+.last h3{
+
+    color: white;
+}
+.last a{
+    text-decoration: none;
+    transition: 1s;
+}
+.last a:hover{
+    
+color: rgba(242, 84, 84, 0.85);
+}
+.last button{
+background-color: transparent;
+border: white solid 1px;
+
+color:#b0b0b0 ;
+transition: 1s;
+}
+.last button:hover {
+
+    border: red solid 1px;
+    color:rgba(242, 84, 84, 0.85);
+
+
+
+
+}
+.lasty{
+
+
+    color: white;
+    font-weight: 400;
+}
+.last i{
+    color: white;
+    transition: 1s;
+}
+.last i:hover{
+
+    color: rgba(242, 84, 84, 0.85);
+}
+#vip{
+
+    font-size: 1rem;
+    background-color: rgba(242, 84, 84, 0.8);
+    padding: 20px;
+    position: absolute;
+    left: 47%;
+    bottom: 95%;
+    transition: 1s;
+}
+#vip :hover i{
+
+    color: white;
+    background-color:rgba(242, 84, 84, 0.85) ;
+}
+
